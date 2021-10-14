@@ -72,7 +72,7 @@ for (x, y, w, h) in faces:
     plt.tight_layout()
 
     print (' SHOW RESULTS FOR FACE ' + str(face_number))
-    NameFind.tell_time_passed()                                  # TIME PASSED
+    #NameFind.tell_time_passed()                                  # TIME PASSED
     cv2.imshow('FACE' + str(face_number), Face)
     plt.show()
     face_number = face_number + 1

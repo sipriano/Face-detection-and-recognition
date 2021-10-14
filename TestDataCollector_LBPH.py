@@ -120,7 +120,7 @@ for (x, y, w, h) in faces:
         cellTrain.write(str(ID) + "," + str(conf) + "\n")
         print ('FOR RADIUS: ' + str(radPixel) + " , " + str(neighbour) + "NEIGHBOURS AND CELL VALUE " + str(cellVal) + ", ID IS: " + str(ID) + " THE CONFIDENCE: " + str(conf))
         cellVal = cellVal + 1
-    NameFind.tell_time_passed()
+    #NameFind.tell_time_passed()
 
 
     # ------------------------------------------- ALL SIX PLOTS -----------------------------------------------------------

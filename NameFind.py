@@ -5,7 +5,7 @@ import math # Image Rotation Library
 import time #Time count Library
 import os # Files Library
 
-now_time = time.clock()
+#now_time = time.clock()
 
 face = cv2.CascadeClassifier('Haar/haarcascade_frontalcatface.xml') # Classifier "frontal-face" Haar Cascade
 glass_cas = cv2.CascadeClassifier('Haar/haarcascade_eye_tree_eyeglasses.xml') # Classifierde "eye" Haar Cascade
@@ -178,5 +178,5 @@ def DetectEyes(Image):
                     return CroppedFace
 
 
-def tell_time_passed():
-    print ('TIME PASSED ' + str(round(((time.clock() - now_time)/60), 2)) + ' MINS')
+#def tell_time_passed():
+#    print ('TIME PASSED ' + str(round(((time.clock() - now_time)/60), 2)) + ' MINS')
